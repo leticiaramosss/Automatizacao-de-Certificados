@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont  
 import os
 
-names = [
+nomes = [
     "Leticia R de Lima",
     "Karol Brito",
     "Renan Soares",
@@ -26,5 +26,6 @@ for index, name in enumerate(names, start=1):
     arq_saida = os.path.join("Python Automate", nome_arq)
 
     certificado_modelo.save(arq_saida)
+
 
     print (f'{index}, Certificado Teste {name}')
